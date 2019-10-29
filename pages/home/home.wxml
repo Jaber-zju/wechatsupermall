@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+  <scroll-view>
+    <w-tabControl id="tabcontrol1" titles="{{titles}}" bind:tabClick="tabClick" wx:if="{{isShowTabcontrol}}" class="fixed"/>
+    <swiper list="{{banners}}"></swiper>
+    <w-HomeRecommend list="{{recommends}}" bind:imageLoad="imageLoad"/>
+    <w-popular/>
+    <w-tabControl id="tabcontrol2" titles="{{titles}}" bind:tabClick="tabClick"/>
+    <w-goods goods="{{goods[currentType].list}}"/>
+    <w-backtop bind:backtopClick="backtopClick" wx:if="{{isShowBacktop}}"/>
+
+  </scroll-view>
+</view>

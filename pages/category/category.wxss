@@ -1,0 +1,14 @@
+/* pages/category/category.wxss */
+.category {
+  height: 100%;
+  display: flex;
+}
+
+.category .title{
+  width: 30%;
+}
+
+.category .content {
+  width: 70%;
+  background-color: green;
+}

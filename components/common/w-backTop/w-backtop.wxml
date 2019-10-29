@@ -1,0 +1,4 @@
+<!--components/common/w-backTop/w-backtop.wxml-->
+<view class="backtop" bindtap="backtopClick">
+  <image src="/assets/images/common/top.png"></image>
+</view>

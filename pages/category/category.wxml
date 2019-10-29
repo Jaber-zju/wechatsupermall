@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+  <w-title-nav class="title" titles="{{categories}}" bind:titleClick="titleClick"/>
+  <w-content class="content" subcategories="{{categoryData[currentIndex].subcategories}}"
+             categoryDetail="{{categoryData[currentIndex].categoryDetail}}"/>
+</view>

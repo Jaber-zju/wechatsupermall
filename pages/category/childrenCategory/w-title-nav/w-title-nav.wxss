@@ -1,0 +1,22 @@
+/* pages/category/childrenCategory/w-title-nav/w-title-nav.wxss */
+.title-nav{
+  margin-left: 20px;
+
+}
+.nav-item{
+margin-bottom: 10rpx;
+}
+.text{
+  text-align: center;
+}
+
+.active{
+  color: #ff6c88;
+
+}
+
+.active text{
+  padding: 6px;
+  font-weight: bolder;
+
+}

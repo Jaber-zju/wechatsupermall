@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-title-nav":"/pages/category/childrenCategory/w-title-nav/w-title-nav",
+    "w-content":"/pages/category/childrenCategory/w-content/w-content"
+  },
+  "navigationBarTitleText": "分类"
+}
